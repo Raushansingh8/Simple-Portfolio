@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    
+    height: 8rem;
+    text-align: center;
+    font-weight: 700;
+    font-size:20px;
+    font-family: sans-serif;
+
+}
+.head{
+    margin-left: 20%;
+}
+.side{
+    padding: auto;
+    height: 80vh;
+    width: 17%;
+    margin: 0.4px;
+    background:linear-gradient(to top,rgb(16, 13, 34), rgb(95, 68, 145));
+    display: inline-block;
+}
+
+.link{
+    padding:18%;
+    list-style: none;
+}
+
+.link a{
+    color: white;
+    font-size:1.5rem; 
+    padding:3rem;
+    text-decoration: none;
+    
+}
+ .link :hover{
+    color: black;
+    transition: 0.2s ease-in-out;
+    text-decoration: underline;
+  
+}
+.marquee{
+    color: rgb(240, 217, 217);
+    margin-top:3%;
+    width: 50%;
+    margin-left: 20%;
+    font-size: 20px;
+    text-decoration: underline;
+    
+}
+
+.main{
+    float:right;
+    margin: auto;
+    height: 80vh;
+    width: 82.8%;
+    border: 1px solid black;
+   background:linear-gradient(to left,rgb(41, 40, 40),rgb(95, 91, 91));
+}
+.skill{
+    font-size:3rem;
+    text-align: center;
+    color: black;
+    display:block;
+    margin-left:38%;
+    width: 30%;
+    border:1px solid beige;
+}
+.type{
+    margin-left:3rem;
+    display:block;
+    padding:9px;
+    font-size:1.5rem;
+    
+}
+.range{
+    width:80%;
+    background: linear-gradient(to right,orange,red);
+    outline: none;
+    margin-left:3%;
+    height: 18px;
+    display:inline-block;
+    border: none;
+  
+}
+
+.lan{
+    width:75%;
+    display:inline-block;
+    background: linear-gradient(to right,orange,red);
+    outline: none;
+    margin-left:3%;
+    height: 18px;
+    border: none;
+  
+}
+.alt{
+    font-size:30px;
+    font-weight: bold;
+    color: azure;
+}
+.submit{
+    margin-left:36%;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: rgb(29, 97, 246);
+    margin-top: 3%;
+    border-radius: 12px;
+    padding: 8px;
+}
+.submit:hover{
+    background-color: rgb(88, 88, 238);
+    font-size:15px;
+    font-weight: bold;
+    box-shadow: 1px 3px 2px 2px rgb(69, 69, 251) ;
+}
+#down{
+    width: 100%;
+    height:400px;
+   background:linear-gradient(to right,rgb(117, 112, 112),black);
+}
+.page{
+    height:370px;
+    margin-left:20%;
+    margin-top:2rem;
+    width: 60%;
+
+    box-shadow: 2px 3px 3px 3px whitesmoke;
+}
+.visit{
+    font-size: 18px;
+    color: rgb(191, 191, 225);
+}
+.footer{
+    height: 80px;
+    font-size:22px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(to left,rgb(69, 66, 66),grey);
+}
+.label{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+#section{
+    height: 250px;
+    margin-left: 3%;
+}
+.input{
+    width: 80%;
+    padding: 8px;
+    background-color:rgb(235, 231, 231);
+    border: none;
+    outline: none;
+    height: 20px;
+}
+#contact{
+    text-align: center;
+    color:white;
+    font-size: 40px;
+    margin-top: 4%;
+}
+
+.css{
+
+        width:70%;
+        background: linear-gradient(to right,orange,red);
+        outline: none;
+        margin-left:3%;
+        height: 18px;
+        border: none;
+        display: inline-block;
+      
+    }
+
+.ops{
+    
+        width:60%;
+        background: linear-gradient(to right,orange,red);
+        outline: none;
+        margin-left:3%;
+        height: 18px;
+        border: none;
+        display: inline-block;
+      
+    
+}
+.doc:hover{
+    font-size:22px;
+
+}
+.notes{
+   
+    height:340px;
+    width:61%;
+    float: right;
+    border-radius:15px;
+    background-color: white;
+    display: inline-block;
+}
+
+.py{
+    
+        width:55%;
+        background: linear-gradient(to right,orange,red);
+        outline: none;
+        margin-left:3%;
+        height: 18px;
+        border: none;
+        display: block;
+      
+    
+}
+.box{
+    border: 1px solid rgb(249, 249, 249);
+    width:25%;
+    margin-top: 1%;
+    margin-left:2%;
+    text-align: center;
+    display: inline-block;
+    padding:20px;
+    height: 270px;
+}
+.html{
+    background-size:50px;
+    height:200px;
+    width: 200px;
+    border-radius: 40%;
+}
+.python{
+    background-size: 100px;
+    height:200px;
+    border-radius: 40%;
+    width: 200px;
+
+}
+.click{
+    padding:8px;
+    color: white;
+    background-color: rgb(78, 78, 252);
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.click:hover{
+    background-color: rgb(144, 144, 247);
+    box-shadow: 1px 2px 2px 3px rgb(111, 111, 255);
+}
+.java{
+    background-size: 100px;
+    height:200px;
+    border-radius: 40%;
+    width: 200px;
+
+
+}
+
+
+#about{
+    border: 1px solid white;
+    background-color: beige;
+    width: 100%;
+    height:25rem;
+}
+
+    
+#left{
+    width:38%;
+    
+    display: inline-block;
+}
+.greet{
+    color: black;
+}
+.content{
+   
+    width: 45%;
+    height: 30%;
+    color: white;
+    margin-top:0.5%;
+    display: inline-block;
+    margin-left: 10%;
+    font-family: sans-serif;
+}
+b{
+    float: right;
+}
+.btn{
+    font-size:16px;
+    padding: 7px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: rgb(64, 64, 239);
+    color: white;
+    margin-top: 3%;
+}
+.btn:hover{
+    background-color: rgb(126, 126, 228);
+}
+h1{
+    color: rgb(245, 234, 234);
+    font-weight: 900;
+    font-size:4rem;
+    margin-left: 3.5%;
+    text-decoration: underline;
+   
+}
+
+
+.button{
+    float: right;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: rgb(96, 96, 249);
+    font-size: 15px;
+    padding: 7px;
+    margin-top: 3%;
+    margin-right:10%;
+}
+.logo{
+    background-size:200px;
+    float: right;
+    height:125px;
+    border-radius: 50%;
+    width:180px;
+    margin-right:5%;
+}
+.button:hover{
+    box-shadow: 2px 3px 3px 2px rgb(95, 95, 252);
+    background: rgb(115, 115, 236);
+}
+.img{
+    background-size: 200px;
+    height:300px;
+    width:300px;
+    display: inline;
+    margin-top:1%;
+    float: right;
+    margin-right:10%;
+    border-radius:50%;
+}
+
